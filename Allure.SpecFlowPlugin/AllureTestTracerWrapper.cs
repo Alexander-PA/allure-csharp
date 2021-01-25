@@ -83,7 +83,7 @@ namespace Allure.SpecFlowPlugin
                 allure.AddAttachment(
                     "multiline argument",
                     "text/plain",
-                    Encoding.ASCII.GetBytes(stepInstance.MultilineTextArgument),
+                    Encoding.UTF8.GetBytes(stepInstance.MultilineTextArgument),
                     ".txt");
 
             var table = stepInstance.TableArgument;
@@ -149,7 +149,7 @@ namespace Allure.SpecFlowPlugin
                         csv.NextRecord();
                     }
                     allure.AddAttachment("table", "text/csv",
-                        Encoding.ASCII.GetBytes(sw.ToString()), ".csv");
+                        Encoding.UTF8.GetBytes(sw.ToString()), ".csv");
                 }
             }
         }

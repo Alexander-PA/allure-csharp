@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net45</TargetFramework>
     <PackageId>SpecFlow.Allure</PackageId>
-    <Version>2.4.2.4</Version>
+    <Version>2.4.2.5</Version>
     <Authors>Alexander Bakanov</Authors>
     <Company />
     <Product />
@@ -14,8 +14,8 @@
     <PackageTags>specflow allure</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReleaseNotes></PackageReleaseNotes>
-    <AssemblyVersion>2.4.2.4</AssemblyVersion>
-    <FileVersion>2.4.2.4</FileVersion>
+    <AssemblyVersion>2.4.2.5</AssemblyVersion>
+    <FileVersion>2.4.2.5</FileVersion>
   </PropertyGroup>
 
 
